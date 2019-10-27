@@ -1,0 +1,25 @@
+.list {
+    width: 400px;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    height: auto;
+    min-height: 70px;
+    margin: 30px 0 0 10px;
+}
+
+.unorderedlist {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    padding: 0;
+    align-items: flex-start;
+    padding: 0 0 0 22px;
+}
+
+.unorderedlist button {
+    background-color: transparent;
+    border: 1px solid #bdbbbb;
+    border-radius: 5px;
+    margin: 0 0 0 3px;
+    color: red;
+}
