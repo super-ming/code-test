@@ -1,0 +1,19 @@
+.addbutton {
+  width: 100px;
+  margin: 8px 0 10px 10px;
+}
+
+.addbutton button {
+  background-color: #0F7397;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  width: 100%;
+  letter-spacing: 0.75px;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
